@@ -1,0 +1,45 @@
+.buttongroup {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.button__compartir {
+background-color: $nickel;
+text-align: center;
+color: $white;
+border-radius: 25px;
+padding: 15px;
+}
+
+.button__compartir:hover{
+    background-color: $lightgray !important;
+    border-color: $lightgray !important;
+}
+
+.button__compartir:active{
+  background-color: $nickel !important;
+  border-color: $nickel !important;
+}  
+
+
+
+
+.button__comentar {
+background-color: $nickel;
+color: $white;
+border-radius: 25px;
+padding: 15px;
+margin-left: 10px;
+
+}
+
+.button__comentar:hover{
+    background-color: $lightgray !important;
+    border-color: $lightgray !important;
+}
+
+.button__comentar:active{
+  background-color: $nickel !important;
+  border-color: $nickel !important;
+}

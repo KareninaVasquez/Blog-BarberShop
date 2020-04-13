@@ -1,0 +1,61 @@
+.card__imagen {
+  width: 80%;
+  border-radius: 50%;
+}
+
+
+.card__textred {
+  font-weight: $light;
+  color: $fuzzywuzzy;
+
+}
+
+.centrocard {
+  @media screen and (max-width: 768px)
+   {
+     text-align: center;
+     padding-left: 130px;
+     }
+}
+
+.centrocardimg {
+  @media screen and (max-width: 768px)
+   {
+     text-align: center;
+     padding-left: 80px;
+     }
+}
+
+.card__text {
+  padding-top: 30px;
+  font-size: $small;
+
+}
+
+
+
+.paginas {
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: $platinium;
+}
+
+.page-item.disabled .page-link {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.page-item:last-child .page-link {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.page-link {
+  color: $eerieblack;
+}
+
+.page-item.active .page-link {
+  background-color: $nickel;
+  border-color: $nickel;
+}

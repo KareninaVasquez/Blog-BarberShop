@@ -1,0 +1,22 @@
+.navbar-dark  {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    background-color: $eerieblack;
+
+}
+
+.nav__logo {
+  width: 40%;
+}
+
+.nav-link:hover {
+        color: $fuzzywuzzy !important;
+}
+
+.active > .nav-link {
+        color: $fuzzywuzzy !important;
+}
+
+.navbar-toggler-icon {
+  color: $white;
+}

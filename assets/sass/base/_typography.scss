@@ -1,0 +1,31 @@
+h1 {
+  font-family: $PlayfairDisplay;
+  font-size: $xx-large;
+  font-weight: black;
+  color: $white;
+  font-style: italic;
+  padding-top: 150px; 
+  }
+
+h2 {
+  font-family: $PlayfairDisplay;
+  font-size: $x-large;
+  font-weight: black;
+  font-style: italic;
+  padding-top: 40px;
+}
+
+  h3 {
+    font-family: $PlayfairDisplay;
+    font-size: $large;
+    font-weight: $regular;
+    padding-top: 50px;
+  }
+
+  p {
+    font-family: $Roboto;
+    font-size: $medium;
+    font-weight: $regular;
+    line-height: 2.5rem;
+
+  }
